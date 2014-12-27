@@ -4,8 +4,59 @@
 body {
 	background-image: image-url('light_backround.jpg');
 }
-h1, h2, h3, h4 {
-	color: #CCCCFF;
+h1 {
+	color: #A37A00;
+	text-shadow: 3px 3px #331A00;
+	font-size: 60px;
+}
+h2 {
+	color: #CC9900;
+	text-shadow: 1.5px 1.5px #331A00;
+	font-size: 40px;
+}
+h3 {
+	color: #CC9900;
+	text-shadow: 1.5px 1.5px #331A00;
+	font-size: 30px
+}
+h4 {
+	color: #CC9900;
+	text-shadow: 1.5px 1.5px #331A00;
+	font-size: 25px;
+}
+p {
+	font-family: Verdana;
+	font-size: 20px;
+	text-align: center;
+	background-color: #A37A00;
+	border: 2px solid #291400;
+}
+a:hover { 
+    background-color: #FFFFCC;
+}
+
+ /*unvisited link*/
+a:link {
+    color: #663300;
+}
+
+ /*visited link */
+a:visited {
+    color: 	#291400;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    color: purple;
+}
+
+.makersquare {
+	background-color: red;
 }
 .center {
 	text-align: center;
