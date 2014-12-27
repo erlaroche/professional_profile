@@ -5,30 +5,30 @@ body {
 	background-image: image-url('light_backround.jpg');
 }
 h1 {
-	color: #A37A00;
-	text-shadow: 3px 3px #331A00;
+	color: #CC9900;
+	text-shadow: 3px 3px black;
 	font-size: 60px;
 }
 h2 {
 	color: #CC9900;
-	text-shadow: 1.5px 1.5px #331A00;
+	text-shadow: 1.5px 1.5px black;
 	font-size: 40px;
 }
 h3 {
 	color: #CC9900;
-	text-shadow: 1.5px 1.5px #331A00;
+	text-shadow: 1.5px 1.5px black;
 	font-size: 30px
 }
 h4 {
 	color: #CC9900;
-	text-shadow: 1.5px 1.5px #331A00;
+	text-shadow: 1.5px 1.5px black;
 	font-size: 25px;
 }
 p {
 	font-family: Verdana;
 	font-size: 20px;
 	text-align: center;
-	background-color: #A37A00;
+	background-color: #d1bb98;
 	border: 2px solid #291400;
 }
 a:hover { 
@@ -53,6 +53,19 @@ a:hover {
 /* selected link */
 a:active {
     color: purple;
+}
+
+img.emma {
+	border: 2px solid;
+	width: 300px;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
 .makersquare {
