@@ -5,6 +5,13 @@ body {
 	background-image: image-url('light_backround.jpg');
 	font-family: Verdana;
 }
+.center {
+	text-align: center;
+	background-color: #FFFFEB;
+	border: 2px solid #291400;
+	border-radius: 25px;
+	/*background-image: image-url('beige-textured.jpg');*/
+}
 h1 {
 	color: #CC9900;
 	text-shadow: 3px 3px black;
@@ -71,11 +78,3 @@ img.emma {
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
-.makersquare {
-	background-color: red;
-}
-.center {
-	text-align: center;
-	background-color: #FFFFEB;
-	/*background-image: image-url('beige-textured.jpg');*/
-}
