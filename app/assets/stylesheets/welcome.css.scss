@@ -4,46 +4,37 @@
 body {
 	background-image: image-url('light_backround.jpg');
 	font-family: Verdana;
+	h1, h2, h3, h4, p {
+		background-color: #d1bb98;
+		border: 2px solid #291400;
+		border-radius: 15px;
+	}
 	h1 {
 		color: #CC9900;
 		text-shadow: 3px 3px black;
 		font-size: 60px;
-		background-color: #d1bb98;
-		border: 2px solid #291400;
-		border-radius: 15px;
+		
 	}
 	h2 {
 		color: #CC9900;
 		text-shadow: 2px 2px black;
 		font-size: 40px;
 		text-decoration: none;
-		background-color: #d1bb98;
-		border: 2px solid #291400;
-		border-radius: 15px;
 	}
 	h3 {
 		color: #CC9900;
 		text-shadow: 2px 2px black;
 		font-size: 30px;
-		background-color: #d1bb98;
-		border: 2px solid #291400;
-		border-radius: 15px;
 	}
 	h4 {
 		color: #CC9900;
 		text-shadow: 2px 2px black;
 		font-size: 25px;
-		background-color: #d1bb98;
-		border: 2px solid #291400;
-		border-radius: 15px;
 	}
 	p {
 		font-family: Verdana;
 		font-size: 20px;
 		text-align: center;
-		background-color: #d1bb98;
-		border: 2px solid #291400;
-		border-radius: 15px;
 	}
 }
 .center {
