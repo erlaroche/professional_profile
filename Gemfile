@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.8'
 # Use PostgreSQL for deploy heroku
 gem 'pg'
+# Add sass
+gem 'sass'
 # Add this for heroku for cool runnings on heroku
 gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
