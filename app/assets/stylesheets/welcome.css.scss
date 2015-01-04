@@ -79,7 +79,6 @@ img.emma {
 	border: 2px solid;
 	height: 300px;
 	border-radius: 150px;
-	margin-left: -75px;
 	float: center;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
@@ -96,7 +95,7 @@ img.twitter {
 /*make linkedin image center and resize*/
 img.linkedin {
 	height: 150px;
-	margin-left: -250px;
+	margin-left: -150px;
 	float: center;
 }
 /*resize email img*/
@@ -117,7 +116,7 @@ img.email {
 div.row.text.center {
 	float: center;
 	height: 400px;
-	width: 800px;
+	width: 850px;
 }
 /*add parallax effect*/
 .parallax {
