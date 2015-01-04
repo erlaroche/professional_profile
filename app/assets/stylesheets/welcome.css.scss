@@ -42,10 +42,6 @@ body {
 	/*background-image: image-url('beige-textured.jpg');*/
 }
 
-a:hover { 
-    background-color: #FFFFCC;
-}
-
  /*unvisited link*/
 a:link {
     color: #663300;
@@ -73,10 +69,22 @@ img.emma {
 	width: 300px;
 	height: 300px;
 	border-radius: 150px;
+	float: center;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
-
+/*make twitter image center and resize*/
+img.twitter {
+	height: 125px;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+/*make linkedin image center and resize*/
+img.linkedin {
+	height: 150px;
+	margin-right: 150px;
+	margin-bottom: 20px;
+}
