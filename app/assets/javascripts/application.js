@@ -18,6 +18,6 @@
 
 $(function(){ $(document).foundation(); });
 $(document).ready(function(){
-	alert("Hello World");
-	// $('img').hide().fadeIn(3000);
+	// alert("Hello World");
+	$('img').hide().fadeIn(3000);
 });
