@@ -8,22 +8,34 @@ body {
 		color: #CC9900;
 		text-shadow: 3px 3px black;
 		font-size: 60px;
+		background-color: #d1bb98;
+		border: 2px solid #291400;
+		border-radius: 15px;
 	}
 	h2 {
 		color: #CC9900;
 		text-shadow: 2px 2px black;
 		font-size: 40px;
 		text-decoration: none;
+		background-color: #d1bb98;
+		border: 2px solid #291400;
+		border-radius: 15px;
 	}
 	h3 {
 		color: #CC9900;
 		text-shadow: 2px 2px black;
-		font-size: 30px
+		font-size: 30px;
+		background-color: #d1bb98;
+		border: 2px solid #291400;
+		border-radius: 15px;
 	}
 	h4 {
 		color: #CC9900;
 		text-shadow: 2px 2px black;
 		font-size: 25px;
+		background-color: #d1bb98;
+		border: 2px solid #291400;
+		border-radius: 15px;
 	}
 	p {
 		font-family: Verdana;
@@ -65,10 +77,9 @@ a:active {
 /*	make profile pic circular, add box shadow and border*/
 img.emma {
 	border: 2px solid;
-	width: 300px;
-	width: 300px;
 	height: 300px;
 	border-radius: 150px;
+	margin-left: -75px;
 	float: center;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
@@ -85,6 +96,34 @@ img.twitter {
 /*make linkedin image center and resize*/
 img.linkedin {
 	height: 150px;
-	margin-right: 150px;
-	margin-bottom: 20px;
+	margin-left: -250px;
+	float: center;
+}
+/*resize email img*/
+img.email {
+	height: 200px;
+}
+/*resize email image*/
+.email{
+	height: 250px;
+}
+
+/*resize border on name h1*/
+.border {
+	margin-right: 100px;
+	margin-left: -40px;
+}
+/*add parallax effect*/
+.parallax {
+	position: fixed;
+	height: 90%;
+	width: 90%;
+	top: 0;
+}
+/*create dividing divs*/
+.opacity {
+	height: 500px;
+}
+.row {
+	background-color: #FFFFCC;
 }
